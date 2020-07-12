@@ -6,7 +6,7 @@
 body {
   font-family: 'Lato', sans-serif;
   line-height: 1.5;
-  background: #ccc; }
+  background: #fff; }
 
 a {
   text-decoration: none;
@@ -92,16 +92,147 @@ img {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        font-size: 1.3rem; }
+        font-size: 1rem; }
   #header-home #main-nav a:hover {
     border-bottom-color: #63a8df; }
   #header-home #main-nav .current {
     border-bottom-color: #63a8df; }
 
-.more-banner {
+.home-banner {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 40px;
   background: #63a8df;
   color: #fff; }
+
+#facts-a .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-a .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-a .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-a .facts .fact {
+    padding: 3rem; }
+    #facts-a .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-a .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-a .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-a .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-a .fact-number {
+  background-color: #63a8df; }
+
+#header-mercury {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/planet1.jpg") no-repeat center center/cover;
+  color: #fbb00c; }
+  #header-mercury #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-mercury #main-nav ul {
+      display: flex; }
+    #header-mercury #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-mercury #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-mercury .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-mercury .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-mercury .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-mercury .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-mercury .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-mercury #main-nav a:hover {
+    border-bottom-color: #fbb00c; }
+  #header-mercury #main-nav .current {
+    border-bottom-color: #fbb00c; }
+
+.mercury-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #fbb00c;
+  color: #fff; }
+
+#facts-b .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-b .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-b .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-b .facts .fact {
+    padding: 3rem; }
+    #facts-b .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-b .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-b .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-b .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-b .fact-number {
+  background-color: #fbb00c; }

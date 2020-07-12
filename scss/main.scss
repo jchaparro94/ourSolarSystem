@@ -1,76 +1,5 @@
 @import 'utilities';
-
-// Mixins
-@mixin header {
-  height: 96vh;
-
-  #main-nav {
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-
-    ul {
-      display: flex;
-    }
-
-    li {
-      padding: 1rem 1.5rem;
-    }
-
-    a {
-      text-decoration: none;
-      text-transform: uppercase;
-      border-bottom: 3px solid transparent;
-      padding-bottom: 0.5rem;
-      transition: border-color 0.5s;
-    }
-  }
-
-  .header-content {
-    height: 92vh;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-
-
-    .header-title {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: flex-end;
-
-      h1 {
-        font-size: 4rem;
-      }
-    }
-
-    .header-stats {
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-      margin-bottom: 4rem;
-
-      div {
-        padding: 0 3rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        font-size: 1.3rem;
-      }
-    }
-  }
-
-}
-
-@mixin banner {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-}
-
-
+@import 'mixins';
 
 // Solar Page
 #header-home {
@@ -87,8 +16,45 @@
   }
 }
 
-.more-banner {
+.home-banner {
   @include banner;
   background: $solar;
   color: #fff;
+}
+
+#facts-a {
+  @include facts;
+
+  .fact-number {
+    background-color: $solar;
+  }
+}
+
+// Mercury Page
+#header-mercury {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/planet1.jpg') no-repeat center center/cover;
+  color: $mercury;
+
+  #main-nav a:hover {
+    border-bottom-color: $mercury;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $mercury;
+  }
+}
+
+.mercury-banner {
+  @include banner;
+  background: $mercury;
+  color: #fff;
+}
+
+#facts-b {
+  @include facts;
+
+  .fact-number {
+    background-color: $mercury;
+  }
 }
