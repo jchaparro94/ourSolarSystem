@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: #ccc; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+ul {
+  list-style: none; }
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase; }
+
+img {
+  width: 100%; }
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.lead {
+  font-size: 1.6rem;
+  margin-bottom: 2rem; }
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+.section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+.text-center {
+  text-align: center; }
+
+#header-home {
+  height: 96vh;
+  background: url("../img/bg-image.jpg") no-repeat center center/cover;
+  color: #63a8df; }
+  #header-home #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-home #main-nav ul {
+      display: flex; }
+    #header-home #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-home #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-home .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-home .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-home .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-home .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-home .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.3rem; }
+  #header-home #main-nav a:hover {
+    border-bottom-color: #63a8df; }
+  #header-home #main-nav .current {
+    border-bottom-color: #63a8df; }
+
+.more-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #63a8df;
+  color: #fff; }

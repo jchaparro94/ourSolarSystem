@@ -1,0 +1,22 @@
+{
+  "name": "oursolarsystem",
+  "version": "1.0.0",
+  "description": "webpage about our solar system",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jchaparro94/ourSolarSystem.git"
+  },
+  "author": "Jose Chaparro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jchaparro94/ourSolarSystem/issues"
+  },
+  "homepage": "https://github.com/jchaparro94/ourSolarSystem#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

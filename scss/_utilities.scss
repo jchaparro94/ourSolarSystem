@@ -1,0 +1,76 @@
+// Variables
+$solar: #63a8df;
+$mercury: #fbb00c;
+$venus: #f6bb2b;
+$earth: #5592c6;
+$mars: #f8835d;
+$jupiter: #e96a75;
+$saturn: #eba357;
+$uranus: #89ebff;
+$neptun: #96b7ff;
+
+
+// General Styling
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+  background: #ccc;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.lead {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.section-underline {
+  height: 2px;
+  width: 5rem;
+  background: $solar;
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+.text-center {
+  text-align: center;
+}
