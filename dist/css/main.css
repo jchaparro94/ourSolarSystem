@@ -236,3 +236,654 @@ img {
 
 #facts-b .fact-number {
   background-color: #fbb00c; }
+
+#header-venus {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/planet2.jpg") no-repeat center center/cover;
+  color: #fff; }
+  #header-venus #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-venus #main-nav ul {
+      display: flex; }
+    #header-venus #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-venus #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-venus .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-venus .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-venus .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-venus .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-venus .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-venus #main-nav a:hover {
+    border-bottom-color: #f6bb2b; }
+  #header-venus #main-nav .current {
+    border-bottom-color: #f6bb2b; }
+
+.venus-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #f6bb2b;
+  color: #fff; }
+
+#facts-c .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-c .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-c .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-c .facts .fact {
+    padding: 3rem; }
+    #facts-c .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-c .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-c .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-c .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-c .fact-number {
+  background-color: #f6bb2b; }
+
+#header-earth {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/planet3.png") no-repeat center center/cover;
+  color: #fff; }
+  #header-earth #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-earth #main-nav ul {
+      display: flex; }
+    #header-earth #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-earth #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-earth .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-earth .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-earth .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-earth .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-earth .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-earth #main-nav a:hover {
+    border-bottom-color: #5592c6; }
+  #header-earth #main-nav .current {
+    border-bottom-color: #5592c6; }
+
+.earth-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #5592c6;
+  color: #fff; }
+
+#facts-d .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-d .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-d .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-d .facts .fact {
+    padding: 3rem; }
+    #facts-d .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-d .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-d .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-d .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-d .fact-number {
+  background-color: #5592c6; }
+
+#header-mars {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/planet4.jpg") no-repeat center center/cover;
+  color: #f8835d; }
+  #header-mars #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-mars #main-nav ul {
+      display: flex; }
+    #header-mars #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-mars #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-mars .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-mars .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-mars .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-mars .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-mars .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-mars #main-nav a:hover {
+    border-bottom-color: #f8835d; }
+  #header-mars #main-nav .current {
+    border-bottom-color: #f8835d; }
+
+.mars-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #f8835d;
+  color: #fff; }
+
+#facts-e .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-e .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-e .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-e .facts .fact {
+    padding: 3rem; }
+    #facts-e .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-e .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-e .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-e .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-e .fact-number {
+  background-color: #f8835d; }
+
+#header-jupiter {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/jupiter.jpg") no-repeat center center/cover;
+  color: #e96a75; }
+  #header-jupiter #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-jupiter #main-nav ul {
+      display: flex; }
+    #header-jupiter #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-jupiter #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-jupiter .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-jupiter .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-jupiter .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-jupiter .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-jupiter .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-jupiter #main-nav a:hover {
+    border-bottom-color: #e96a75; }
+  #header-jupiter #main-nav .current {
+    border-bottom-color: #e96a75; }
+
+.jupiter-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #e96a75;
+  color: #fff; }
+
+#facts-f .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-f .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-f .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-f .facts .fact {
+    padding: 3rem; }
+    #facts-f .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-f .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-f .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-f .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-f .fact-number {
+  background-color: #e96a75; }
+
+#header-saturn {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/planet6.jpg") no-repeat center center/cover;
+  color: #eba357; }
+  #header-saturn #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-saturn #main-nav ul {
+      display: flex; }
+    #header-saturn #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-saturn #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-saturn .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-saturn .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-saturn .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-saturn .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-saturn .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-saturn #main-nav a:hover {
+    border-bottom-color: #eba357; }
+  #header-saturn #main-nav .current {
+    border-bottom-color: #eba357; }
+
+.saturn-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #eba357;
+  color: #fff; }
+
+#facts-g .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-g .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-g .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-g .facts .fact {
+    padding: 3rem; }
+    #facts-g .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-g .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-g .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-g .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-g .fact-number {
+  background-color: #eba357; }
+
+#header-uranus {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/planet7.jpg") no-repeat center center/cover;
+  color: #89ebff; }
+  #header-uranus #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-uranus #main-nav ul {
+      display: flex; }
+    #header-uranus #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-uranus #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-uranus .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-uranus .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-uranus .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-uranus .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-uranus .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-uranus #main-nav a:hover {
+    border-bottom-color: #89ebff; }
+  #header-uranus #main-nav .current {
+    border-bottom-color: #89ebff; }
+
+.uranus-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #89ebff;
+  color: #fff; }
+
+#facts-h .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-h .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-h .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-h .facts .fact {
+    padding: 3rem; }
+    #facts-h .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-h .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-h .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-h .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-h .fact-number {
+  background-color: #89ebff; }
+
+#header-neptun {
+  height: 96vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/planet8.jpg") no-repeat center center/cover;
+  color: #96b7ff; }
+  #header-neptun #main-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem; }
+    #header-neptun #main-nav ul {
+      display: flex; }
+    #header-neptun #main-nav li {
+      padding: 1rem 1.5rem; }
+    #header-neptun #main-nav a {
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 3px solid transparent;
+      padding-bottom: 0.5rem;
+      transition: border-color 0.5s; }
+  #header-neptun .header-content {
+    height: 92vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr; }
+    #header-neptun .header-content .header-title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      #header-neptun .header-content .header-title h1 {
+        font-size: 4rem; }
+    #header-neptun .header-content .header-stats {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      margin-bottom: 4rem; }
+      #header-neptun .header-content .header-stats div {
+        padding: 0 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 1rem; }
+  #header-neptun #main-nav a:hover {
+    border-bottom-color: #96b7ff; }
+  #header-neptun #main-nav .current {
+    border-bottom-color: #96b7ff; }
+
+.neptun-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #96b7ff;
+  color: #fff; }
+
+#facts-i .section-title {
+  font-size: 2rem;
+  display: block;
+  padding-top: 2rem;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+#facts-i .section-underline {
+  height: 2px;
+  width: 5rem;
+  background: #63a8df;
+  display: block;
+  margin: 0 auto 2rem auto; }
+
+#facts-i .facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: .5rem;
+  margin-bottom: 2rem; }
+  #facts-i .facts .fact {
+    padding: 3rem; }
+    #facts-i .facts .fact .fact-number {
+      display: inline-block;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px; }
+      #facts-i .facts .fact .fact-number .number {
+        font-size: 1.5rem; }
+    #facts-i .facts .fact .fact-title {
+      font-size: 1.5rem;
+      padding-bottom: .7rem; }
+    #facts-i .facts .fact .fact-text {
+      font-size: 1.2rem; }
+
+#facts-i .fact-number {
+  background-color: #96b7ff; }

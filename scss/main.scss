@@ -58,3 +58,206 @@
     background-color: $mercury;
   }
 }
+
+// Venus Page
+#header-venus {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/planet2.jpg') no-repeat center center/cover;
+  color: #fff;
+
+  #main-nav a:hover {
+    border-bottom-color: $venus;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $venus;
+  }
+}
+
+.venus-banner {
+  @include banner;
+  background: $venus;
+  color: #fff;
+}
+
+#facts-c {
+  @include facts;
+
+  .fact-number {
+    background-color: $venus;
+  }
+}
+
+// Earth Page
+#header-earth {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/planet3.png') no-repeat center center/cover;
+  color: #fff;
+
+  #main-nav a:hover {
+    border-bottom-color: $earth;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $earth;
+  }
+}
+
+.earth-banner {
+  @include banner;
+  background: $earth;
+  color: #fff;
+}
+
+#facts-d {
+  @include facts;
+
+  .fact-number {
+    background-color: $earth;
+  }
+}
+
+// Mars Page
+#header-mars {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/planet4.jpg') no-repeat center center/cover;
+  color: $mars;
+
+  #main-nav a:hover {
+    border-bottom-color: $mars;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $mars;
+  }
+}
+
+.mars-banner {
+  @include banner;
+  background: $mars;
+  color: #fff;
+}
+
+#facts-e {
+  @include facts;
+
+  .fact-number {
+    background-color: $mars;
+  }
+}
+
+// Jupiter Page
+#header-jupiter {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/jupiter.jpg') no-repeat center center/cover;
+  color: $jupiter;
+
+  #main-nav a:hover {
+    border-bottom-color: $jupiter;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $jupiter;
+  }
+}
+
+.jupiter-banner {
+  @include banner;
+  background: $jupiter;
+  color: #fff;
+}
+
+#facts-f {
+  @include facts;
+
+  .fact-number {
+    background-color: $jupiter;
+  }
+}
+
+// Saturn Page
+#header-saturn {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/planet6.jpg') no-repeat center center/cover;
+  color: $saturn;
+
+  #main-nav a:hover {
+    border-bottom-color: $saturn;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $saturn;
+  }
+}
+
+.saturn-banner {
+  @include banner;
+  background: $saturn;
+  color: #fff;
+}
+
+#facts-g {
+  @include facts;
+
+  .fact-number {
+    background-color: $saturn;
+  }
+}
+
+// Uranus Page
+#header-uranus {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/planet7.jpg') no-repeat center center/cover;
+  color: $uranus;
+
+  #main-nav a:hover {
+    border-bottom-color: $uranus;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $uranus;
+  }
+}
+
+.uranus-banner {
+  @include banner;
+  background: $uranus;
+  color: #fff;
+}
+
+#facts-h {
+  @include facts;
+
+  .fact-number {
+    background-color: $uranus;
+  }
+}
+
+// Neptun Page
+#header-neptun {
+  @include header;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/planet8.jpg') no-repeat center center/cover;
+  color: $neptun;
+
+  #main-nav a:hover {
+    border-bottom-color: $neptun;
+  }
+
+  #main-nav .current {
+    border-bottom-color: $neptun;
+  }
+}
+
+.neptun-banner {
+  @include banner;
+  background: $neptun;
+  color: #fff;
+}
+
+#facts-i {
+  @include facts;
+
+  .fact-number {
+    background-color: $neptun;
+  }
+}
